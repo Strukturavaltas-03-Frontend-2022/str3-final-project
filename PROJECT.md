@@ -1,4 +1,4 @@
-# Angular Záró Csapatprojekt
+# Angular záró csapatprojekt
 
 ## Feladat
 Készítsetek egy adminfelületet Angular segítségével a megadott 
@@ -16,10 +16,10 @@ hogy másik sablont használ, akkor egyeztetés után ezt megteheti, de
 funkcionálisan meg kell egyeznie az eredetivel.
 - Az alkalmazás egy fejléccel és egy bal oldali navigációval rendelkezik.  
 - Az egyes oldalak között a bal oldali navigáció segítségével lehet váltani.
-- Az Angular alkalmazást minden csapatnak önállóan kell elkésztenie, 
+- Az Angular-alkalmazást minden csapatnak önállóan kell elkésztenie, 
 a mellékelt minták csupán segítenek ebben.
-- A javasolt munkamenet az, hogy a nyers .html-sablonok és 
-.css-állományok alapján készítsenek a csapatok Angular komponenseket és 
+- A javasolt munkamenet az, hogy a nyers HTML-sablonok és 
+CSS-állományok alapján készítsenek a csapatok Angular-komponenseket és 
 ezekből építsék fel a teljes alkalmazást.   
 
 __Főbb részei:__  
@@ -57,13 +57,13 @@ műveletekről vagy az esetleges hibákról.
 - A többi csapattag a Classroom felületén lépjen be a már létrehozott csapatba.
 - A csapat hozzon létre egy saját azonosítót, ami maximum 8 angol karakterből áll.
 - Ezt az azonosítót adja meg a gyakorlatvezetőnek, aki ez alapján elkészíti számukra 
-az adatbázist a távoli json szerveren.
-- [A szerver URL a következő lesz](https://nettuts.hu/jms/<azonosító>/
+az adatbázist a távoli JSON-szerveren.
+- [A szerver URL-je a következő lesz](https://nettuts.hu/jms/<azonosító>/
 - Ezt az URL-t kell majd beállítani az environment változóban az alkalmazásban.
 - Beszéljék meg a csapat tagjai, hogy milyen entitásokat és milyen mezőket szeretnének 
-használni és ezek alapján generálják le az adatokat tartalmazó .json fájlokat a 
+használni, és ezek alapján generálják le az adatokat tartalmazó JSON-fájlokat a 
 [Mockaroo](https://www.mockaroo.com/) alkalmazásban.
-- Küldjék el a generált .json fájlokat a gyakorlatvezetőknek, akik majd  
+- Küldjék el a generált JSON-fájlokat a gyakorlatvezetőknek, akik majd  
 elhelyezik ezeket a szerveren.
 
 ## Technikai leírás - fejlesztés lépései
@@ -98,7 +98,7 @@ hozzanak létre. Például, ha egy üres Product példányt kapnak 0 id-vel, abb
 tudják, hogy nem az update, hanem a create metódust kell meghívniuk a kapcsolódó 
 szervizből.
 - Minden adat kötelező legyen. 
-- Minden adatot validálni kell, a tanult `template-driven` űrlaptechnikákkal.
+- Minden adatot validálni kell a tanult `template-driven` űrlaptechnikákkal.
 - Ha nincs megfelelően kitöltve az űrlap, akkor ne engedje elküldeni az adatokat, 
 és jelenítsen meg releváns hibaüzenetet.
 - Sikeres mentés vagy hiba esetén jelenjen meg felugró üzenet. Ezt többféle 
@@ -128,7 +128,7 @@ kattintanak, akkor csökkenő irányú. Ha ezután egy másik oszlopra kattintan
 akkor aszerint rendezünk, az alapértelmezett növekvő irányba.
 
 ### 5. Dashboard
-Ez az alkalmazás kezdőoldala. Itt alapvetően áttekintő nézet jelenik meg a 
+Ez az alkalmazás kezdőoldala. Itt alapvetően egy áttekintő nézet jelenik meg a 
 webshop állapotáról.  
 __Megjelenített adatok:__  
 - Aktív termékek száma.
@@ -167,7 +167,7 @@ animáció, amely ezt jelzi.
 darab vagy mekkora összeg a szumma egy adott oszlopban.
 - A felhasználó szerkeszthesse azt, hogy milyen sorrendben legyenek a táblázatok  
 oszlopai. Ezt drag-and-drop technikával lehet a legegyszerűbben megoldani,  
-konzultáción át fogjuk tekinteni a lehetőségeket.
+egy konzultáción át fogjuk tekinteni a lehetőségeket.
 
 ## Sok sikert!
 
