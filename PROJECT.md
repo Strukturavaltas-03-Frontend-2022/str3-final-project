@@ -36,6 +36,7 @@ is.
 a törölhető és szerkeszthető rendelések. Új rendelést is lehet rögzíteni.
 - Pénztár: a rendelések alapján kiállított számlákat jeleníti meg táblázatos 
 formában. Van lehetőség új számla kézi rögzítésére is.  
+- FONTOS: minden entitásból __legalább 1000 darab__ legyen a táblázatokban.  
 
 __Közös jellemzők:__  
 - Minden táblázat szűrhető az összes oszlop alapján. Minden táblázat rendezhető 
