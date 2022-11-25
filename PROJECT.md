@@ -16,7 +16,7 @@ hogy másik sablont használ, akkor egyeztetés után ezt megteheti, de
 funkcionálisan meg kell egyeznie az eredetivel.
 - Az alkalmazás egy fejléccel és egy bal oldali navigációval rendelkezik.  
 - Az egyes oldalak között a bal oldali navigáció segítségével lehet váltani.
-- Az Angular-alkalmazást minden csapatnak önállóan kell elkésztenie, 
+- Az Angular-alkalmazást minden csapatnak önállóan kell elkészítenie, 
 a mellékelt minták csupán segítenek ebben.
 - A javasolt munkamenet az, hogy a nyers HTML-sablonok és 
 CSS-állományok alapján készítsenek a csapatok Angular-komponenseket és 
@@ -65,6 +65,9 @@ használni, és ezek alapján generálják le az adatokat tartalmazó JSON-fájl
 [Mockaroo](https://www.mockaroo.com/) alkalmazásban.
 - Küldjék el a generált JSON-fájlokat a gyakorlatvezetőknek, akik majd  
 elhelyezik ezeket a szerveren.
+
+### Option B
+- Ha a csapat úgy dönt, használhatja a Firebase szolgálatatást is a saját projektjében.
 
 ## Technikai leírás - fejlesztés lépései
 ### 1. Szükséges osztályok
